@@ -1,0 +1,41 @@
+<!-- file: tixo-bold-gradient-T-red-tight2.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" width="640" height="180" role="img" aria-label="TIXO logo — tightened spacing">
+  <defs>
+    <linearGradient id="g-blush" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#FFD7DA"/>
+      <stop offset="0.45" stop-color="#FF9EA7"/>
+      <stop offset="1" stop-color="#F25A5A"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="10" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+    <style>
+      .logoText {
+        font-family: "Poppins", "Montserrat", "Segoe UI", Roboto, system-ui, -apple-system, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 140px;
+        letter-spacing: -6px;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(20,20)">
+    <!-- soft black shadow behind the entire word -->
+    <text class="logoText" x="10" y="120" fill="#080808" opacity="0.45" transform="skewX(-6)" filter="url(#shadow)">
+      TIXO
+    </text>
+
+    <!-- main text: T is bright red, IXO uses the blush gradient; dx pulls IXO much closer to T -->
+    <text class="logoText" x="0" y="110" transform="skewX(-6)">
+      <tspan fill="#FF2D2D">T</tspan>
+      <tspan fill="url(#g-blush)" dx="-12">IXO</tspan>
+    </text>
+
+    <!-- glossy highlight (subtle) -->
+    <path d="M40 36 L420 36 C430 36 440 46 420 66 L120 126 C100 140 40 110 40 36 Z"
+          transform="skewX(-6)"
+          fill="white" fill-opacity="0.08"/>
+  </g>
+</svg>
