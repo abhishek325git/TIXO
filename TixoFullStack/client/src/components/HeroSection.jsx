@@ -11,22 +11,22 @@ const HeroSection = () => {
       <img src={assets.tronLogo} alt="" className="max-h-11 lg:h-11 mt-20" />
 
       <h1 className="text-5xl md:text-[70px] md:leading-18 font-semibold max-w-110">
-        Guardians <br /> of the Galaxy
+        TRON: Ares
       </h1>
 
       <div className="flex items-center gap-4 text-gray-300">
         <span>Action | Adventure | Sci-Fi</span>
         <div className="flex items-center gap-1">
-          <CalendarIcon className="w-4.5 h-4.5" /> 2018
+          <CalendarIcon className="w-4.5 h-4.5" /> 2025
         </div>
         <div className="flex items-center gap-1">
-          <ClockIcon className="w-4.5 h-4.5" /> 2h 8m
+          <ClockIcon className="w-4.5 h-4.5" /> 1h 59m
         </div>
       </div>
       <p className="max-w-md text-gray-300">
-        In a post-apocalyptic world where cities ride on wheels and consume each
-        other to survive, two people meet in London and try to stop a
-        conspiracy.
+        A highly sophisticated Program called Ares is sent from the digital
+        world into the real world on a dangerous mission, marking humankind's
+        first encounter with A.I. beings.
       </p>
       <button
         onClick={() => navigate("/movies")}
