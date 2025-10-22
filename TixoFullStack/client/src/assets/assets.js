@@ -1,25 +1,23 @@
-import logo from "./logo.svg";
-import marvelLogo from "./marvelLogo.svg";
 import googlePlay from "./googlePlay.svg";
 import appStore from "./appStore.svg";
 import screenImage from "./screenImage.svg";
 import profile from "./profile.png";
 import tixosvg from "./tixosvg.svg";
+import tronLogo from "./tronLogo.webp";
 
 export const assets = {
-  logo,
-  marvelLogo,
   googlePlay,
   appStore,
   screenImage,
   profile,
   tixosvg,
+  tronLogo
 };
 
 export const dummyTrailers = [
   {
-    image: "https://img.youtube.com/vi/WpW36ldAqnM/maxresdefault.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=WpW36ldAqnM",
+    image: "https://img.youtube.com/vi/YShVEXb7-ic/maxresdefault.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=YShVEXb7-ic",
   },
   {
     image: "https://img.youtube.com/vi/-sAOWhvheK8/maxresdefault.jpg",
